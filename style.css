@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    margin: 0 px;
+    padding: 0px;
+}
+
+form{
+    font-size: 16px;
+    background: #ccc;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+}
+h1{
+    color: #333;
+}
+input, textarea{
+    width: 480px;
+    padding: 10px;
+}
+.enviar input{
+    background: rgb(0, 91, 136);
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    background:#078 ;
+
+}
+textarea{
+    width: 480px;
+    height: 120px;
+    line-height: 20px;
+}
